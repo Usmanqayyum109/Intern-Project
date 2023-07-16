@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fasthand&family=Inter+Tight:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fasthand&family=Inter+Tight:ital,wght@1,900&display=swap');
+.create-form label{
+    color:chartreuse !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px !important;
+  }
+
+  
+  .main-heading {
+    font-size: 100px;
+    text-decoration: underline;
+    color: #ff5050;
+    font-family: 'Inter Tight', sans-serif;
+    text-transform: capitalize;
+  }
+
+  .child-heading {
+    font-size:60px ;
+    text-decoration:dashed;
+    color: #ff8000;
+    font-family: 'Inter Tight', sans-serif;
+
+  }
+ 
+  @media  screen and (max-width: 660px) {
+    .main-heading {
+      font-size: 25px;
+      text-decoration: underline;
+      text-transform: uppercase;
+      color: #ff5050;
+      font-family: 'Inter Tight', sans-serif;
+      text-transform: capitalize;
+    }
+  }

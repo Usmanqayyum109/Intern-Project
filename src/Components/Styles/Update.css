@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fasthand&family=Inter+Tight:wght@500&display=swap');
+
+.update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #000046 0%, #1cb5e0 100%);
+    color: whitesmoke;
+    flex-direction: column;
+    
+  }
+
+  .update-heading {
+    font-size:100px ;
+    text-decoration:underline;
+    color: #ff8000;
+    font-family: 'Inter Tight', sans-serif;
+    margin-bottom: 1.5rem;
+
+  }
+
+  @media screen and (max-width: 660px){
+    .update-heading {
+        font-size:30px ;
+        text-decoration:underline;
+        color: #ff8000;
+        font-family: 'Inter Tight', sans-serif;
+        margin-bottom: 1.5rem;
+    
+      }
+  }

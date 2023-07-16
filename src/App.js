@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import RapidApi from "./Components/API/RapidApi";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Create from "./Components/CRUD/Create";
+import Update from "./Components/CRUD/Update";
+import Read from "./Components/CRUD/Read";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<RapidApi />} />
+          <Route path="/Create" element={<Create />} />
+          <Route path="/Read" element={<Read />} />
+          <Route path="/Update" element={<Update />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
