@@ -5,7 +5,7 @@ import "../Styles/RapidApi.css";
 import { Link } from "react-router-dom";
 
 const RapidApi = () => {
-  const [endPoint, setEndPoint] = useState("MAN");
+  const [endPoint, setEndPoint] = useState("Pakistan");
 
   const [container, setContainer] = useState([]);
 
